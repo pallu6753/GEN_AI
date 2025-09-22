@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "user-avatar",
+      "description": "A placeholder avatar for the user.",
+      "imageUrl": "https://picsum.photos/seed/user-avatar/200/200",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "wellness-hero",
+      "description": "An inspiring and calming image of a person looking out at a beautiful landscape.",
+      "imageUrl": "https://picsum.photos/seed/wellness-hero/1920/1080",
+      "imageHint": "calm landscape"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+.prose {
+    color: hsl(var(--foreground));
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    color: hsl(var(--foreground));
+    font-family: 'PT Sans', sans-serif;
+}
+
+.prose h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.prose h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid hsl(var(--border));
+}
+
+.prose blockquote {
+    color: hsl(var(--muted-foreground));
+    border-left-color: hsl(var(--border));
+    font-style: normal;
+    padding-left: 1em;
+    margin-left: 0;
+}
+
+.prose ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+.prose li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.prose p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.prose strong {
+    color: hsl(var(--foreground));
+    font-weight: 600;
+}
+
+.dark .prose {
+    color: hsl(var(--foreground));
+}
+
+.dark .prose h1, .dark .prose h2, .dark .prose h3, .dark .prose h4, .dark .prose h5, .dark .prose h6 {
+    color: hsl(var(--foreground));
+}
+
+.dark .prose blockquote {
+    color: hsl(var(--muted-foreground));
+    border-left-color: hsl(var(--border));
+}
+
+.dark .prose strong {
+    color: hsl(var(--foreground));
+}
